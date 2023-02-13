@@ -1,0 +1,46 @@
+
+main.diferent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%; 
+  gap: 2.5rem;
+}
+
+main h1.main-class{
+  font-size: 4.8rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+button#btn {
+padding: 1.7rem 3.2rem;
+border: 2px solid var(--text);
+border-radius: 5px;
+background-color: transparent;
+font-weight: 700;
+
+cursor: pointer;
+
+transition: all 0.4s;
+}
+button#btn a{
+  padding: 1.7rem 3.2rem;
+  font-size: 1.8rem;
+  list-style: none;
+  text-decoration: none;
+  color: #fff;
+}
+
+button#btn a:hover{
+  color: #02799D;
+}
+
+button#btn:hover {
+  background-color: #fff;
+  }
+
+
+

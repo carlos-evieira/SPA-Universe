@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+:root{
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+  
+  --header-text: #8D8D99;
+  --text:  #ffffff;
+}
+
+
+.exploration {
+  background: url(../img/mountains-universe-3.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.home {
+  background: url(../img/mountains-universe-1.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.universe {
+  background: url(../img/mountains-universe-2.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+}
+
+header nav{
+  display: flex;
+  padding: 3rem 0 3rem 7rem;
+  justify-content:flex-start;
+  align-items: center;
+  width: 100%;
+  /* max-width: 128rem; */
+  margin: 0 auto;
+  height: 100%;
+
+  gap: 3rem;
+}
+
+header ul{
+  display: flex;
+  gap: 3rem;
+}
+
+header a{
+  list-style:none;
+  text-decoration: none;
+  color: var(--header-text);
+  font-size: 2.4rem;
+  transition: all 0.4s;
+}
+
+
+header a.active, header a:hover{
+  list-style:none;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+ 
